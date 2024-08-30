@@ -1,7 +1,7 @@
 # LangChain Documentation Helper
 
 ## Overview
-LangChain Documentation Helper is a web application designed to assist with learning LangChain by building a generative AI application. This tool answers questions about LangChain using sources from the official LangChain documentation, and integrates a Pinecone vector store for efficient querying.
+LangChain Documentation Helper is a web application built to facilitate learning LangChain by creating a generative AI application. The app answers questions about LangChain using data sourced from the official LangChain documentation and employs Pinecone as a vector store for optimized search.
 
 ## Tech Stack
 - **Client**: Streamlit
@@ -9,7 +9,7 @@ LangChain Documentation Helper is a web application designed to assist with lear
 - **Vectorstore**: Pinecone 🌲
 
 ## Environment Variables
-To run this project, you need to add the following environment variables to your `.env` file:
+To run this project, you will need to add the following environment variables to your `.env` file:
 - `PINECONE_API_KEY`
 - `OPENAI_API_KEY`
 
@@ -17,12 +17,12 @@ To run this project, you need to add the following environment variables to your
 
 1. **Clone the project**:
     ```bash
-    git clone https://github.com/emarco177/documentation-helper.git
+    git clone https://github.com/melikaknight/Documentation-Helper_LLM.git
     ```
 
 2. **Go to the project directory**:
     ```bash
-    cd documentation-helper
+    cd Documentation-Helper_LLM
     ```
 
 3. **Download LangChain Documentation**:
@@ -42,6 +42,6 @@ To run this project, you need to add the following environment variables to your
     ```
 
 ## Running Tests
-To run tests, execute the following command:
+To run tests, use the following command:
 ```bash
 pipenv run pytest .
